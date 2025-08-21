@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Merci pour ton achat – Ebook + Appel</title>
-  <link rel="preconnect" href="https://fonts.bunny.net" />
-  <link href="https://fonts.bunny.net/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merci pour votre achat - Ebook + Appel</title>
   <style>
-    body { font-family: Inter, sans-serif; background: #0b0b0d; color: #fff; }
-    .card { background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); 
-            border:1px solid rgba(255,255,255,0.08); border-radius: 1rem; padding: 2rem; 
-            backdrop-filter: blur(6px); box-shadow:0 0 30px rgba(200,200,220,0.1); }
-    .btn { display:inline-block; background:linear-gradient(180deg,#e5e7eb,#bfc3cf); color:#0b0b0d; 
-           padding:.9rem 1.5rem; border-radius:9999px; font-weight:700; text-align:center; }
-    .muted { color:#c7c7cf; }
+    body {
+      background: #0b0b0b;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #67e7bf;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #67e7bf;
+      color: #0b0b0b;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #4fd0a8;
+    }
   </style>
 </head>
-<body class="flex items-center justify-center min-h-screen px-4">
-  <div class="card max-w-lg text-center">
-    <div class="text-6xl mb-4">📞</div>
-    <h1 class="text-3xl font-extrabold mb-2">Merci pour ton achat !</h1>
-    <p class="muted mb-6">Ton paiement pour le pack Ebook + Appel 30 min est confirmé. Clique ci-dessous pour réserver ton appel directement.</p>
-    <a href="https://calendly.com/ton-compte/30min" class="btn w-full">📅 Réserver mon appel</a>
-    <p class="text-xs muted mt-4">⚠️ Remplace le lien ci-dessus par ton vrai lien Calendly.</p>
-  </div>
+<body>
+  <h1>✅ Merci pour votre achat !</h1>
+  <p>Tu as accès à ton ebook <strong>+ ton appel de 30 min personnalisé</strong>.</p>
+
+  <p><a href="ebook-muscu.pdf" class="btn">📕 Télécharger l'Ebook</a></p>
+  <p><a href="https://calendly.com/zucconilivio/30min" target="_blank" class="btn">📅 Réserver ton appel</a></p>
 </body>
 </html>
